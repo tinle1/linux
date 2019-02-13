@@ -1,0 +1,44 @@
+Thong tin he dieu hanh
+
+cat /proc/version
+
+uname -a
+
+Chi tiet thong tin he dieu hanh
+
+lsb_release -a
+
+lsb_release -d
+
+Notice: You need to install lsb_release when use this command
+
+sudo apt-get update
+sudo apt-get install lsb-release
+
+For more detail, you can use command:
+cat etc/*release*
+
+Check information of server
+
+$ lscpu
+
+If you want more detail about core information, you can use:
+
+$ cat /proc/cpuinfo 
+or
+$ less /proc/cpuinfo
+
+Memory check
+
+free -m
+
+For more detail 
+$ cat /proc/meminfo
+
+CHECK PERFORMANCE SERVER
+
+$ top
+
+press q to exit
+
+
